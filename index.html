@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+    
+  </head>
+  <body>
+    <section>
+      <h1>¡Hola! ¿Qué querés comprar?</h1>
+      <ul>
+        <li onclick="comprar(pocion)">Poción de Vida <span>100G</span></li>
+        <li onclick="comprar(espada)">Espada <span>180G</span></li>
+        <li onclick="comprar(escudo)">Escudo <span>90G</span></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Mi inventario</h2>
+      <ul id="inventario">
+        
+      </ul>
+      <h2 id="Dinero">
+        Dinero: <span></span>
+      </h2>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
